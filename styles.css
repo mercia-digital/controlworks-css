@@ -1,0 +1,51 @@
+/* Login Styles*/
+#ctl00_divUserInfo {
+  max-width: 1060px;
+  margin: 10px auto;
+}
+#ctl00_divCartInfo {
+  max-width: 1060px;
+  margin: 0 auto;
+}
+#ctl00_mainBody_divAccountManagement ul li {
+  float: none;
+  display: inline-block;
+}
+#ctl00_mainBody_divAccountManagement input[type=submit] {
+  background-color: #2aade7;
+  color: white;
+  text-shadow: none;
+  transition: all 0.3s ease;
+}
+#ctl00_mainBody_divAccountManagement input[type=submit]:hover {
+  background-color: #8abb2a;
+}
+/* Home Styles */
+.marketSegments > div:first-of-type {
+  width: 100%!important;
+  float: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 50px;
+  display: block;
+  text-align: center;
+}
+#ctl00_mainBody_divModuleList {
+  display: flex;
+  flex-wrap: wrap;
+}
+#ctl00_mainBody_divModuleList .market-segments {
+  width: calc(33.33% - 30px);
+  float: none;
+  display: inline-block;
+  padding: 25px;
+  margin: 15px;
+}
+#ctl00_mainBody_divModuleList .market-segments ul {
+  padding: 0!important;
+  padding-left: 15px!important;
+}
+#ctl00_mainBody_divModuleList .market-segments:hover p span {
+  color: white!important;
+}
+/* Category Styles */
